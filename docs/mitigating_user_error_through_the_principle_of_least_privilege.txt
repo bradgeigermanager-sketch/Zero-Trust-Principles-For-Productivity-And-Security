@@ -1,0 +1,18 @@
+Research Paper: Mitigating User Error through the Principle of Least Privilege
+
+**Abstract**
+Human error remains a primary driver of operational disruption and data exposure. This paper explores the application of "Least Privilege Access" (LPA) as a structural safeguard against accidental misuse within an organization. While frequently discussed in the context of preventing malicious intent, this research argues that LPA significantly reduces the "blast radius" of human mistakes—such as accidental data deletion or misconfiguration. The study concludes that ZT principles improve organizational reliability by enforcing systemic guardrails around user behavior.
+
+**Introduction**
+Excessive user permissions, common in traditional models, allow for broad, unintended impacts from simple user errors. LPA seeks to limit the scope of these impacts by ensuring users possess only the permissions required for their immediate tasks.
+
+**Organizational Benefits**
+
+* **Operational Integrity:** By scoping permissions, ZT limits the potential damage from "fat-finger" errors or accidental misconfigurations. If an employee does not have "delete" or "modify" access to a production database, the risk of accidental data loss is mathematically reduced.
+* **Compliance Automation:** LPA forces a formalized definition of roles. This creates an inherently compliant environment where access governance is not just a policy, but a technical reality, simplifying the process of auditing for regulatory standards (e.g., GDPR, HIPAA).
+
+**Individual and Device-Level Interaction**
+For the individual, LPA reduces cognitive load; employees see only the systems and data relevant to their specific role, reducing clutter and the risk of interacting with incorrect or sensitive data sets.
+
+**Conclusion**
+The implementation of Least Privilege is a fundamental operational discipline. By constraining the potential for error, Zero Trust builds a more resilient and self-correcting organizational environment.
